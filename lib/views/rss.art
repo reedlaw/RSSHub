@@ -20,7 +20,6 @@
         </image>
         {{ /if }}
         <lastBuildDate>{{ lastBuildDate }}</lastBuildDate>
-        <ttl>{{ ttl }}</ttl>
         {{ each item }}
         <item>
             <dc:creator><![CDATA[{{@ $value.creator }}]]></dc:creator>
